@@ -1,1 +1,25 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8942f4;
+}
 
+li a {
+    display: block;
+    color: #d6b7ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #d6b7ff (purrpurr) on hover */
+li a:hover {
+    background-color: #d6b7ff;
+    color: #8942f4;
+}
+
+li.menu {
+    float: left;
+}
