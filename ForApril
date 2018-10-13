@@ -1,0 +1,125 @@
+Hi April!!!!
+This is a brief set of instructions for how to add stuff on the website. I'll create the pages and style them, all you need to do is fill 
+them in with random stuff about violas and Sherlock. And bean soup.
+
+As I mentioned last Thursday, every command in html is called a tag. Tags start with the < symbol and end with a >. Every tag
+has an end tag. The end is represented by a backslash (/). With the exception of the break <br> tag (which puts a little break in between
+paragraphs and pictures), every single tag MUST BE ENDED. That is important. 
+
+For example, the html (Hypertext Markup Language) document starts with an html tag: <html>. But when you finish writing the page, you need
+to establish that the page is done, by ending it </html>
+
+The same goes for all sorts of tags: title, head, body,paragraphs, etc etc. And after you get the basics down you can play with more fun
+stuff, like text colors, pictures, links, buttons, text boxes, blah blah blah. So down below I will start with a couple of the most
+frequently usefully used tags and an example. Text me before Monday AM if you need any help.
+
+1. Font color
+This tag lets you change the color of the text. Most browsers recognize basic color names, so you can type in 'red', 'blue', 'green',
+and all that. But if you want more fun colors, search up 'html color picker' and a colorful box will pop up. You can select 
+the shade and the intensity, copy the hex value (it's a six-digit/letter combination that looks something like this: #ff55ff. That
+code there will produce a magenta color.)
+
+Example:
+<font color="ff55ff">Hi April. The text I'm typing will turn out magenta. But you don't want the entire thing to be magenta, so you end 
+it like this. </font>
+
+2. Bold, Italic, Strikethrough and Underline
+These four tags are fairly straightforward. You type in the tag, type text in between and end the tag. Like so:
+
+This text is <b>BOLD</b>
+This text is <u>UNDERLINED</u>
+This text is <i>ITALISIZED</i>
+This text is <s>UNWANTED</s>
+Pardon my spelling, this has no <font color="red">autocorrect.</font>
+
+3. Headings
+I went over this on Friday. The headings tag is very straightforward. There are six headings, labeled 1 to 6. 1 is the largest and 6
+is the smallest.
+
+<h1>Big text</h1>
+<h2>Not-as-big text</h2>
+<h3>Smaller text</h3>
+<h4>Even smaller text</h4>
+<h5>Small text</h5>
+<h6>Smallest text</h6>
+<h7>No just kidding, there is no h7 :) </h7>
+
+4. Images
+Ah yes. Images. I love images. Without them there would be no Tumblr and therefore no Shumblr (Sherlock fandom on Tumblr).
+The image tag can be a bit confusing at times. There are many parameters, but for our purposes there are only three main ones that
+you should concern yourself with.
+
+<img src="https://i.pinimg.com/originals/75/5b/2e/755b2e9d8976e50a047d2f5cc8d49fc0.jpg" width="100" height="100">
+In this tag, there are three parts: the source, the width and the height.
+The source specifies the image itself. I pulled this one off Google Images cause I was too lazy to upload it here, but ideally
+you fist save the image to your camera roll/computer (if you're using a desktop) and upload it into this repository. When you upload
+it you can rename the file to something simple, like viola.png for a picture of a viola. 
+The width and height are simple. You type the amount in pixels in. MAKE SURE TO USE QUOTES. It will not work if you don't.
+
+So if I wanted a picture of a viola that was named viola.png to be 50 by 50 pixels, I'd type this:
+<img src="viola.png" width="50" height="50">
+P.S. Copy the first image source in the first image tag into your search engine, see what pops up ;)
+
+5. Lists
+There are two types of lists: unnumbered <ul> and ordered <ol>. Unnumbered lists have bullet points, and ordered lists have numbers. That's the
+only difference. Other than that, they are used the same way. Regardless of which list you use, they are all accompanied by the list item
+<li> tag. It's kind of hard to explain, I'll put an example here and on the home webpage and try to define it.
+
+Unnumbered list:
+<ul>
+<li>Cheese</li>
+<li>Eggs</li>
+<li>Ham</li>
+<li>Mycroft</li>
+</ul>
+
+So, the <ul> tag tells the browser that an unnumbered list is coming up. The <li> tag specifies the actual items in the list.
+So using this example, the webpage would display a bulleted list containing Cheese, Eggs, Ham and Mycroft. Let's look at another one.
+
+Ordered list:
+<ol>
+<li>Broccoli</li>
+<li>Carrots</li>
+<li>Potatoes</li>
+<li>Sherlock</li>
+</ol>
+
+This time instead of bullets, the site will show you a numbered list containing Broccoli, Carrots, Potatoes and Sherlock.
+
+Make sense so far?
+Here, have a meme. You earned it.
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/001/065/113/16e.jpg" width="30" height="30">
+
+6. Paragraphs
+This is super easy. Whenever you type a paragraph of text, you should start <p> and end it </p> with this tag. Not only does it
+provide automatic spacing for your paragraphs, it also makes it super easy to style it using CSS - Cascading Style Sheet. (more on that
+later! I'll take care of it for now.) Here's an excerpt from FANDOM (if you click ctrl-u on a webpage it will show you the source code):
+
+<h1>Speedy's Cafe</h1>
+<p>Speedy's Cafe is a small sandwich bar and cafe which is situated in Baker Street just to the right of the door to 221B and 221C.
+The place is owned by Mr Chatterjee.</p>
+
+<h2>History</h2>
+<p>The café serves as a convenient meeting place on at least one occasion; Mycroft Holmes sat here with John Watson to discuss 
+Irene Adler, and how they would explain her death to Sherlock.</p>
+
+<h2>Trivia</h2>
+<p>In the unaired pilot episode the shop was called "Mrs Hudson's Snax n' Sarnies" (Sarny being a British English variant of 'sandwich').</p>
+
+<p>In reality, Speedy's Cafe, alongside the whole set of Baker Street for the series is filmed in North Gower Street, in Bloomsbury, 
+Central London near Euston Road and Euston Railway station. The location of the set is approximately one mile away from the real 
+Baker Street in Marylebone.</p>
+
+7. Links
+Last but not least, LINKS!!!! Not sausage links, digital links. Though I wish we could download sausage links from the web.
+Links are one of the most important items you can have on a website. They string your pages together, can be used to redirect to
+other sites, and also used to contact the owner, or anyone else's email for that matter. They are ridiculously simple to use, which
+is why they are one of my favorite tags. They don't have to be applied to text either. You can put them on just about anything:
+images, buttons, table cells or whatever shows up on a website.
+
+<a href="http://www.mit.edu/~jcb/jokes/viola2.html">Viola Jokes by MIT</a>
+<a href="http://www.mit.edu/~jcb/jokes/viola2.html"><img src="viola.png" width="221" height="221"></a>
+
+Whenever you click on the viola picture or the text "Viola Jokes by MIT" it will take you to the page.
+
+That's it for now. Thanks for reading, see you next week.
