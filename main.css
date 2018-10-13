@@ -1,14 +1,14 @@
-ul.menu {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #adccff;
+    background-color: #8942f4;
 }
 
 li a {
     display: block;
-    color: #68a1ff;
+    color: #d6b7ff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -16,12 +16,105 @@ li a {
 
 /* Change the link color to #d6b7ff (purrpurr) on hover */
 li a:hover {
-    background-color: #68a1ff;
-    color: #adccff;
+    background-color: #d6b7ff;
+    color: #8942f4;
 }
 
-li.menu {
+li.nav {
     float: left;
+}
+
+li.normal {
+    display: inline;
+    text-align: left;
+    list-style-type: bullet;
+}
+
+.pg {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14pt;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Trebuchet MS", cursive, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Papyrus", fantasy;
+    font-size: 16pt;
+    text-align: center;
+}
+
+  
+img {
+  width: 290px;
+  height: 240px;
+  border-color: mediumpurple;
+  border-width: 4px;
+  border-style: dotted;
+  border-radius: 70px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.credit {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-color: #8942f4;
+    border-width: 5px;
+    border-collapse: collapse;
+    text-decoration: none;
+    
+}
+
+th, td {
+    padding: 5px;
+}
+
+.table {
+    margin-left:auto; 
+    margin-right:auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14pt;
+    margin-top: 30px; 
+  }
+
+.table tr:hover 
+{
+    background-color: #d6b7ff;
+}
+
+body { 
+   text-align:center;
+   background-color: #d8bfff;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul.normal {
+    list-style-type: bullet;
+    background-color: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14pt;
+    text-align: left;
+    display: block;
+    clear: both;
+    list-style-position: outside;
+    
 }
 
 body {
